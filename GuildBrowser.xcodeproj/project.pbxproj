@@ -410,7 +410,10 @@
 				ORGANIZATIONNAME = "Charlie Fulton";
 				TargetAttributes = {
 					CB9FDC3A15E9872D00B3713E = {
-						DevelopmentTeam = 5RBR3P5Q76;
+						DevelopmentTeam = C46AC59JC9;
+					};
+					CB9FDC5B15E9872E00B3713E = {
+						DevelopmentTeam = C46AC59JC9;
 					};
 				};
 			};
@@ -617,7 +620,7 @@
 		CB9FDC6F15E9872E00B3713E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = 5RBR3P5Q76;
+				DEVELOPMENT_TEAM = C46AC59JC9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GuildBrowser/GuildBrowser-Prefix.pch";
 				INFOPLIST_FILE = "GuildBrowser/GuildBrowser-Info.plist";
@@ -630,7 +633,7 @@
 		CB9FDC7015E9872E00B3713E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = 5RBR3P5Q76;
+				DEVELOPMENT_TEAM = C46AC59JC9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GuildBrowser/GuildBrowser-Prefix.pch";
 				INFOPLIST_FILE = "GuildBrowser/GuildBrowser-Info.plist";
@@ -644,6 +647,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GuildBrowser.app/GuildBrowser";
+				DEVELOPMENT_TEAM = C46AC59JC9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
@@ -662,6 +666,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GuildBrowser.app/GuildBrowser";
+				DEVELOPMENT_TEAM = C46AC59JC9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
